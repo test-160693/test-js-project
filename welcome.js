@@ -1,5 +1,5 @@
-function print() {
-  var i = 0;
-  console.log("Printing");
-  console.log("Printing");
+function open() {
+     conole.log("test");
+     console.log("test");
+     conole.log("test");
 }
