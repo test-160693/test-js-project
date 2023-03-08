@@ -1,4 +1,4 @@
 function open() {
      console.log("test");
-     cons.log("test");
+     conseele.log("test");
 }
