@@ -18,7 +18,6 @@ class CalculateSalary {
   public static void printincomeinformation(int allsalary, int homepay)
   {
     System.out.println("Gross income: " + allsalary + " doller\nNet income:   " + homepay + "doller\n");
-  
     if (3000<allsalary)
     {
       System.out.println("You get great salary!\nDo your best at work!\n");;   
