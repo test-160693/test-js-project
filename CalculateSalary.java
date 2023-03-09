@@ -22,8 +22,6 @@ class CalculateSalary {
     if (3000<allsalary)
     {
       System.out.println("You get great salary!\nDo your best at work!\n");;   
-  
-  
     };
     if (3000>=allsalary) {
       System.out.println("You're glowing up now!\nDo your best at work!\n");
