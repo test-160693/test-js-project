@@ -1,6 +1,6 @@
 class CalculateSalary {
-    public static final double RATES_OF_I_TAX=10;
-    private static final double RATES_OF_H_INS= 1.5;
+  public static final double RATES_OF_I_TAX=10;
+  private static final double RATES_OF_H_INS= 1.5;
   protected static final double RATES_OF_S_INS= 7;
   public static void main(String args[]){
   int grosssalary=1000;
