@@ -15,6 +15,7 @@ class CalculateSalary {
     int tmp=salary -(int)deductiona-(int)deductionb-(int)deductionc;
   return tmp;
   }
+    
   public static void printincomeinformation(int allsalary, int homepay)
   {
     System.out.println("Gross income: " + allsalary + " doller\nNet income:   " + homepay + "doller\n");
