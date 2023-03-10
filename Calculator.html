@@ -1,53 +1,37 @@
 <html>
 <head>
-<title>Assignment2 Part A</title>
-
-<script type="text/javascript">
-// Calculates a weekly salary
-
-function get_salary() {
-var hours = prompt("Please enter the number of hours you worked this week");
-var rate = prompt("Please enter how much money you earn per hour");
-
-//Calculates over time pay or regular pay
-if (hours>= 40)
-
-{
-regpay = (rate * 40)
-overtimepay = ((rate * 1.5) * (hours - 40))
-pay = (regpay + overtimepay)
-
-// Send an alert with over time pay values
-alert ("You earned overtime this week! Your total pay is " + pay);
-
-}
-
-else 
-{
-regpay = (rate * hours)
-overtimepay = 0.00
-
-//send an alert with regular paid amount
-alert ("Your total pay is " + regpay);
-}
-}
-</script>
+<title>Calculator</title>
 </head>
 <body>
-<center>
-<img src="http://i573.photobucket.com/albums/ss174/kelseygene11/name_for_class_zpsnrcpr7e5.png" border="0" alt=" photo 
-
-name_for_class_zpsnrcpr7e5.png"/>
-</center>
-
-<script type="text/javascript">
-
-get_salary();
-
-</script>
-
-<h1>Salary Calculator</h1>
-<p>How much did you earn?</p>
-
+<h1>Pure JavaScript Calculator</h1>
+		  <div class="main-div">
+		           
+				  
+				            <div class="screen" id="screen"><p></p></div>
+							<div class="clear" id="clear">C</div>
+					
+				
+				               <ul class="number-div">
+							             <li>1</li>
+										 <li>2</li>
+										 <li>3</li>
+									     <li>+</li>
+										 <li>4</li>
+										 <li>5</li>
+										 <li>6</li>
+									     <li>x</li>
+										 <li>7</li>
+										 <li>8</li>
+										 <li>9</li>
+									     <li>-</li>
+										 <li>0</li>
+										 <li>.</li>
+										 <li id="equals">=</li>
+									     <li>÷</li>
+										 
+										 
+							   </ul>
+				   
+		  </div>
 </body>
 </html>
